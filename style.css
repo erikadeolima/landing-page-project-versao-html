@@ -1,15 +1,16 @@
-.main {
-  
+*.main {
+  position: relative;
+  max-width: 1240;
+  max-height: 1550;
+  overflow: hidden;
+  text-decoration: none;
 }
-img{
+.main img{
   position: absolute;
   width: 1257px;
-  height: 1240px;
+  height: 1440px;
   left: 351px;
   top: 12px;
-
-  background-blend-mode: multiply;
-  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 
   opacity: 20%;
 }
@@ -72,4 +73,33 @@ img{
   font-size: 30px;
   text-align: left;
   font-weight: bold;
+}
+
+.repositorios {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+
+  padding-top: 2rem;
+  width: 100%;
+  height: max-content;
+  margin-top: 50px;
+  margin-left: 100px;
+  gap: 150px;
+}
+
+*.redirect {
+  height: 40px;
+  padding-top: 5px;
+  border-radius: 10px;
+  border-style: solid;
+  background-color: #FF5C00;
+  font-size: 25px;
+  text-align: center;
+  content: space-around;
+}
+
+.redirect a{
+  color: #000000;
+  text-decoration: none;
 }
