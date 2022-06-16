@@ -103,3 +103,9 @@
   color: #000000;
   text-decoration: none;
 }
+
+*.soonSection {
+  font-size: 100px;
+  text-align: center;
+  font-weight: bold;
+}
