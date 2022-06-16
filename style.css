@@ -1,0 +1,75 @@
+.main {
+  
+}
+img{
+  position: absolute;
+  width: 1257px;
+  height: 1240px;
+  left: 351px;
+  top: 12px;
+
+  background-blend-mode: multiply;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  opacity: 20%;
+}
+.top-section{
+  display: inline-block;
+  width: 741px;
+  height: 81px;
+  left: 109px;
+  top: 126px;
+  padding-bottom: 169px;
+
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 77px;
+
+  color: #000000;
+}
+.info-main{
+  display: flex;
+  flex-flow: row wrap;
+  width: 1584px;
+  gap: 10px;
+}
+
+.button-section {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+
+  padding-top: 2rem;
+  width: 25%;
+  height: max-content;
+  margin-top: 50px;
+  gap: 50px;
+}
+
+.button-section button{
+  width: 70%;
+  border-radius: 20px;
+  border-style: solid;
+  background-color: #FF5C00;
+  height: 60px;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.info-section {
+  display: flex;
+  flex-flow: column wrap;
+  padding-top: 50px;
+  line-height: 0.05%;
+  text-align: left;
+  font-size: 25px;
+  padding-left: 10px;
+}
+
+*.title{
+  font-size: 30px;
+  text-align: left;
+  font-weight: bold;
+}
